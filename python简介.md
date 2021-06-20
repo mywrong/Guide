@@ -37,24 +37,24 @@ anaconda官网：https://www.anaconda.com/
 
 下载页面：https://www.anaconda.com/products/individual#Downloads
 
-![avatar](https://gitee.com/mywrong/python-guide/blob/master/image/anaconda/anaconda%E4%B8%8B%E8%BD%BD%E9%A1%B5%E9%9D%A2.png)
+![avatar](https://github.com/mywrong/Python-Guide/blob/master/image/anaconda/anaconda%E4%B8%8B%E8%BD%BD%E9%A1%B5%E9%9D%A2.png?raw=true)
+
 
 使用windows 64位操作系统的同学可以选择64-Bit Graphical Installer (477 MB)进行下载。
 
 下载完成后点击.exe文件进行安装，安装路径可以选择任意目录，但是注意路径不能包含中文，然后全部直接next即可。
 
 #### 2.1.2 配置环境变量
-
 1.
-![avatar](https://python-guide-1305487144.cos.ap-nanjing.myqcloud.com/anaconda%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png)
+![anaconda配置环境变量1](https://github.com/mywrong/Python-Guide/blob/master/image/anaconda/anaconda%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png?raw=true)
 2.
-![avatar](https://python-guide-1305487144.cos.ap-nanjing.myqcloud.com/anaconda%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png)
+![anaconda配置环境变量2](https://github.com/mywrong/Python-Guide/blob/master/image/anaconda/anaconda%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png?raw=true)
 3.
-![avatar](https://python-guide-1305487144.cos.ap-nanjing.myqcloud.com/anaconda%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png)
+![anaconda配置环境变量3](https://github.com/mywrong/Python-Guide/blob/master/image/anaconda/anaconda%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png?raw=true)
 4.
-![avatar](https://python-guide-1305487144.cos.ap-nanjing.myqcloud.com/anaconda%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F4.png)
+![anaconda配置环境变量4](https://github.com/mywrong/Python-Guide/blob/master/image/anaconda/anaconda%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F4.png?raw=true)
 5.
-![avatar](https://python-guide-1305487144.cos.ap-nanjing.myqcloud.com/anaconda%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F5.png)
+![anaconda配置环境变量5](https://github.com/mywrong/Python-Guide/blob/master/image/anaconda/anaconda%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F5.png?raw=true)
 其中"D:\environment\Anaconda3"是我anaconda的安装路径，替换成自己anaconda的安装路径即可。
 
 #### 2.1.3 创建虚拟环境
@@ -84,6 +84,8 @@ channels:
   - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
 show_channel_urls: true
 ```
+具体步骤如图所示
+
 保存并关闭文件，再重新输入`conda create -n pylearning python=3.7`，按下enter键，出现一下提示，我们再输入y，表示确定创建此虚拟环境，最后等待conda帮我们创建虚拟环境就可以了。
 
 
