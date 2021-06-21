@@ -45,15 +45,25 @@ anaconda官网：https://www.anaconda.com/
 下载完成后点击.exe文件进行安装，安装路径可以选择任意目录，但是注意路径不能包含中文，然后全部直接next即可。
 
 #### 2.1.2 配置环境变量
+
 1.
+
 ![anaconda配置环境变量1](https://github.com/mywrong/Python-Guide/blob/master/image/anaconda/anaconda%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.png?raw=true)
+
 2.
+
 ![anaconda配置环境变量2](https://github.com/mywrong/Python-Guide/blob/master/image/anaconda/anaconda%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F2.png?raw=true)
+
 3.
+
 ![anaconda配置环境变量3](https://github.com/mywrong/Python-Guide/blob/master/image/anaconda/anaconda%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F3.png?raw=true)
+
 4.
+
 ![anaconda配置环境变量4](https://github.com/mywrong/Python-Guide/blob/master/image/anaconda/anaconda%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F4.png?raw=true)
+
 5.
+
 ![anaconda配置环境变量5](https://github.com/mywrong/Python-Guide/blob/master/image/anaconda/anaconda%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F5.png?raw=true)
 其中"D:\environment\Anaconda3"是我anaconda的安装路径，替换成自己anaconda的安装路径即可。
 
@@ -79,7 +89,7 @@ anaconda官网：https://www.anaconda.com/
     具体步骤如下所示：
 
     打开`C:\Users\Pot`目录，其中`Pot`需要替换为本机windows系统账户名，在这个目录下有一个名为`.condarc`的隐藏文件
-![conda创建虚拟环境报错1](https://github.com/mywrong/Python-Guide/blob/master/image/anaconda/conda%E5%88%9B%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E6%8A%A5%E9%94%991.png?raw=true)
+    ![conda创建虚拟环境报错1](https://github.com/mywrong/Python-Guide/blob/master/image/anaconda/conda%E5%88%9B%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E6%8A%A5%E9%94%991.png?raw=true)
 
     使用记事本作为打开方式打开`.condarc`，将其中替换为以下内容
     ```
@@ -91,12 +101,15 @@ anaconda官网：https://www.anaconda.com/
     ```
 
     保存并关闭文件，再重新输入`conda create -n python-learning python=3.7`，按下enter键，出现一下提示，我们再输入y，表示确定创建此虚拟环境，最后等待conda帮我们创建虚拟环境就可以了，如下图所示。
-    ![conda创建虚拟环境1](https://github.com/mywrong/Python-Guide/blob/master/image/anaconda/conda%E5%88%9B%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%831.png?raw=true)
+    ![conda创建虚拟环境](https://github.com/mywrong/Python-Guide/blob/master/image/anaconda/conda%E5%88%9B%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83.png?raw=true)
     
     这里询问我们是否要继续创建虚拟环境，我们输入y表示确认。
 
     conda自动下载完一些必须的库后就完成了虚拟环境的创建。
-    
+    ![conda创建虚拟环境2](https://github.com/mywrong/Python-Guide/blob/master/image/anaconda/conda%E5%88%9B%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%832.png?raw=true)
+
+
+
 
 
 
