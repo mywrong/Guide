@@ -111,9 +111,19 @@ anaconda官网：https://www.anaconda.com/
 ## Pycharm
 我们推荐初学者使用Pycharm来学习Python编程。PyCharm是一种Python IDE（Integrated Development Environment，集成开发环境）,带有一整套可以帮助用户在使用Python语言开发时提高其效率的工具，比如调试、语法高亮、Project管理、代码跳转、智能提示、自动完成、单元测试、版本控制。
 
+### 安装Pycharm
 Pycharm官网：https://www.jetbrains.com/pycharm/
 Pycharm下载地址：https://www.jetbrains.com/pycharm/download/#section=windows
 
+![下载页面](https://github.com/mywrong/Python-Guide/blob/master/image/pycharm/%E4%B8%8B%E8%BD%BD%E9%A1%B5%E9%9D%A2.png?raw=true)
+
+有两个下载选择，一个是Professional(专业版，收费，但在校生可申请教育版)，一个是Community(社区版，免费)。我们下载Community版。
+
+下载完成后一路按照默认选项安装成功，这里不再赘述。
+
+### 编写第一个程序helloworld
+1. 打开Pycharm，初始界面如下：
+![Pycharm启动界面]
 
 
 
