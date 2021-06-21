@@ -125,8 +125,8 @@ Pycharm下载地址：https://www.jetbrains.com/pycharm/download/#section=window
 1. 打开Pycharm，初始界面如下,选择`new project`:
 ![Pycharm启动界面](https://github.com/mywrong/Python-Guide/blob/master/image/pycharm/Pycharm%E5%90%AF%E5%8A%A8%E7%95%8C%E9%9D%A2.png?raw=true)
 
-
-
+2. 出现如下界面后，先选择`previously configured interpreter`，表示我们新建的项目使用的是之前已经配置好的python解释器（就是使用我们之前配置的python-learning环境中的python解释器），点击省略号选择之前配置的python-learning环境的Python解释器(python.exe)的路径：
+![Pycharm创建新项目2]()
 
 
 
