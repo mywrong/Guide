@@ -108,6 +108,12 @@ anaconda官网：https://www.anaconda.com/
     conda自动下载完一些必须的库后就完成了虚拟环境的创建。
     ![conda创建虚拟环境2](https://github.com/mywrong/Python-Guide/blob/master/image/anaconda/conda%E5%88%9B%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%832.png?raw=true)
 
+## Pycharm
+我们推荐初学者使用Pycharm来学习Python编程。PyCharm是一种Python IDE（Integrated Development Environment，集成开发环境）,带有一整套可以帮助用户在使用Python语言开发时提高其效率的工具，比如调试、语法高亮、Project管理、代码跳转、智能提示、自动完成、单元测试、版本控制。
+
+Pycharm官网：https://www.jetbrains.com/pycharm/
+Pycharm下载地址：https://www.jetbrains.com/pycharm/download/#section=windows
+
 
 
 
