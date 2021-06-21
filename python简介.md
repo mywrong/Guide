@@ -63,30 +63,36 @@ anaconda官网：https://www.anaconda.com/
 
 2. conda换源。如前所述，conda会根据我们输入的命令，自动的去某个网站下载我们想要的python库，conda默认的下载网址是国外的网站，在国内下载速度较慢，因此推荐将conda的默认下载网址换成国内的网站。
 
-在命令行窗口输入一下三行命令。
-```
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
-conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
-conda config --set show_channel_urls yes
-```
-这样我们就完成了conda换源。
+    在命令行窗口输入一下三行命令。
+    ```
+    conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+    conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+    conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
+    conda config --set show_channel_urls yes
+    ```
+    这样我们就完成了conda换源。
 
 3. 现在我们可以使用conda来创建自己的虚拟环境了。在命令行窗口输入`conda create -n environment_name python=X.X`，其中`environment_name`是你要创建的虚拟环境的名称，建议根据创建此环境的目的来命名，比如我们的目的是学习python，就可以将`environment_name`替换为`pylearning`，当然，命名风格因人而异。`X.X`是我们要使用的python解释器版本，比如`2.7`、`3.6`、`3.7`、`3.8`、`3.9`，也可以不写`pyhton=X.X`，此时默认使用anaconda的默认python版本。
 
-我们这里创建一个名为`pylearning`的虚拟环境，输入命令`conda create -n pylearning python=3.7`，按下enter键，若出现`CondaHTTPError:HTTP 000 CONNECTION FAILED`字样的提示，这是网络连接出现了错误，解决办法如下：
+    我们这里创建一个名为`pylearning`的虚拟环境，输入命令`conda create -n pylearning python=3.7`，按下enter键，若出现`CondaHTTPError:HTTP 000 CONNECTION FAILED`字样的提示，这是网络连接出现了错误，解决办法如下：
 
-打开`C:\Users\Pot`目录，其中`Pot`需要替换为本机windows系统账户名，在这个目录下有一个名为`.condarc`的隐藏文件，使用记事本作为打开方式，将其中替换为一下内容：
-```
-channels:
-  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
-  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
-  - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
-show_channel_urls: true
-```
-具体步骤如图所示
+    具体步骤如下所示：
 
-保存并关闭文件，再重新输入`conda create -n pylearning python=3.7`，按下enter键，出现一下提示，我们再输入y，表示确定创建此虚拟环境，最后等待conda帮我们创建虚拟环境就可以了。
+    打开`C:\Users\Pot`目录，其中`Pot`需要替换为本机windows系统账户名，在这个目录下有一个名为`.condarc`的隐藏文件
+![conda创建虚拟环境报错1](https://github.com/mywrong/Python-Guide/blob/master/image/anaconda/conda%E5%88%9B%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E6%8A%A5%E9%94%991.png?raw=true)
+
+    使用记事本作为打开方式打开`.condarc`，将其中替换为以下内容
+    ```
+    channels:
+      - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
+      - http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
+      - http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+    show_channel_urls: true
+    ```
+
+    保存并关闭文件，再重新输入`conda create -n pylearning python=3.7`，按下enter键，出现一下提示，我们再输入y，表示确定创建此虚拟环境，最后等待conda帮我们创建虚拟环境就可以了，如下图所示。
+    ![conda创建虚拟环境1]()
+
 
 
 
