@@ -122,8 +122,9 @@ Pycharm下载地址：https://www.jetbrains.com/pycharm/download/#section=window
 下载完成后一路按照默认选项安装成功，这里不再赘述。
 
 ### 编写第一个程序helloworld
-1. 打开Pycharm，初始界面如下：
-![Pycharm启动界面]
+1. 打开Pycharm，初始界面如下,选择`new project`:
+![Pycharm启动界面](https://github.com/mywrong/Python-Guide/blob/master/image/pycharm/Pycharm%E5%90%AF%E5%8A%A8%E7%95%8C%E9%9D%A2.png?raw=true)
+
 
 
 
