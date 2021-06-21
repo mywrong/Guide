@@ -72,9 +72,9 @@ anaconda官网：https://www.anaconda.com/
     ```
     这样我们就完成了conda换源。
 
-3. 现在我们可以使用conda来创建自己的虚拟环境了。在命令行窗口输入`conda create -n environment_name python=X.X`，其中`environment_name`是你要创建的虚拟环境的名称，建议根据创建此环境的目的来命名，比如我们的目的是学习python，就可以将`environment_name`替换为`pylearning`，当然，命名风格因人而异。`X.X`是我们要使用的python解释器版本，比如`2.7`、`3.6`、`3.7`、`3.8`、`3.9`，也可以不写`pyhton=X.X`，此时默认使用anaconda的默认python版本。
+3. 现在我们可以使用conda来创建自己的虚拟环境了。在命令行窗口输入`conda create -n environment_name python=X.X`，其中`environment_name`是你要创建的虚拟环境的名称，建议根据创建此环境的目的来命名，比如我们的目的是学习python，就可以将`environment_name`替换为`python-learning`，当然，命名风格因人而异。`X.X`是我们要使用的python解释器版本，比如`2.7`、`3.6`、`3.7`、`3.8`、`3.9`，也可以不写`pyhton=X.X`，此时默认使用anaconda的默认python版本。
 
-    我们这里创建一个名为`pylearning`的虚拟环境，输入命令`conda create -n pylearning python=3.7`，按下enter键，若出现`CondaHTTPError:HTTP 000 CONNECTION FAILED`字样的提示，这是网络连接出现了错误，解决办法如下：
+    我们这里创建一个名为`python-learning`的虚拟环境，输入命令`conda create -n python-learning python=3.7`，按下enter键，若出现`CondaHTTPError:HTTP 000 CONNECTION FAILED`字样的提示，这是网络连接出现了错误，解决办法如下：
 
     具体步骤如下所示：
 
@@ -90,8 +90,12 @@ anaconda官网：https://www.anaconda.com/
     show_channel_urls: true
     ```
 
-    保存并关闭文件，再重新输入`conda create -n pylearning python=3.7`，按下enter键，出现一下提示，我们再输入y，表示确定创建此虚拟环境，最后等待conda帮我们创建虚拟环境就可以了，如下图所示。
-    ![conda创建虚拟环境1]()
+    保存并关闭文件，再重新输入`conda create -n python-learning python=3.7`，按下enter键，出现一下提示，我们再输入y，表示确定创建此虚拟环境，最后等待conda帮我们创建虚拟环境就可以了，如下图所示。
+    ![conda创建虚拟环境1](https://github.com/mywrong/Python-Guide/blob/master/image/anaconda/conda%E5%88%9B%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%831.png?raw=true)
+    
+    这里询问我们是否要继续创建虚拟环境，我们输入y表示确认。
+
+    conda自动下载完一些必须的库后就完成了安装
 
 
 
